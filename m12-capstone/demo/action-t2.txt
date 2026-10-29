@@ -1,0 +1,3 @@
+Action: change demo ACL
+Tier:   T2 (change, proposal only - a human executes)
+Approved by Demo-Approver as a PROPOSAL. A human engineer executes it under change control.

@@ -1,0 +1,3 @@
+FOUND  secret or hash
+FOUND  email address
+2 finding(s): fix before using this file in a prompt

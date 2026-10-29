@@ -1,0 +1,36 @@
+{"ts": "2026-10-29T13:59:39", "event": "check", "file": "samples/router-output.txt", "findings": 2}
+{"ts": "2026-10-29T14:00:15", "event": "rca", "incident": "INC-OUTAGE1015", "prompt": "out/rca-INC-OUTAGE1015-20261029-140015.txt"}
+{"ts": "2026-10-29T14:00:39", "event": "action", "name": "open ticket for INC-OUTAGE-1015", "tier": "T1", "decision": "rejected", "approver": "Akash", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:01:06", "event": "action", "name": "open ticket for INC-OUTAGE-1015", "tier": "T1", "decision": "rejected", "approver": "Akash", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:01:38", "event": "action", "name": "delete_logs SRV-FILE01", "tier": "T3", "decision": "refused"}
+{"ts": "2026-10-29T14:03:10", "event": "action", "name": "open ticket for INC-OUTAGE-1015", "tier": "T1", "decision": "approved", "approver": "Akash", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:03:36", "event": "action", "name": "open ticket for INC-OUTAGE-1015", "tier": "T1", "decision": "approved", "approver": "Akash", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:04:14", "event": "action", "name": "delete_logs SRV-FILE01", "tier": "T3", "decision": "refused"}
+{"ts": "2026-10-29T14:06:49", "event": "alerts", "returncode": 0, "findings": 0, "prompt": "out/alerts-20261029-140649.txt", "saved": true}
+{"ts": "2026-10-29T14:10:31", "event": "check", "file": "demo/check-finding.txt", "findings": 1}
+{"ts": "2026-10-29T14:10:38", "event": "troubleshoot", "symptom": "bgp", "evidence": "samples/router-output.txt", "prompt": "out/troubleshoot-bgp-20261029-141038.txt"}
+{"ts": "2026-10-29T14:10:57", "event": "alerts", "returncode": 0, "findings": 0, "prompt": "out/alerts-20261029-141057.txt", "saved": true}
+{"ts": "2026-10-29T14:34:28", "event": "check", "file": "samples/router-output.txt", "findings": 2}
+{"ts": "2026-10-29T14:35:13", "event": "rca", "incident": "INC-OUTAGE1015", "prompt": "out/rca-INC-OUTAGE1015-20261029-143513.txt"}
+{"ts": "2026-10-29T14:35:42", "event": "action", "name": "open ticket for INC-OUTAGE-1015", "tier": "T1", "decision": "approved", "approver": "AkashBhat", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:36:29", "event": "action", "name": "delete_logs SRV-FILE01", "tier": "T3", "decision": "refused"}
+{"ts": "2026-10-29T14:37:16", "event": "check", "file": "demo/check-finding.txt", "findings": 1}
+{"ts": "2026-10-29T14:37:24", "event": "troubleshoot", "symptom": "bgp", "evidence": "samples/router-output.txt", "prompt": "out/troubleshoot-bgp-20261029-143724.txt"}
+{"ts": "2026-10-29T14:37:34", "event": "rca", "incident": "INC-DEMO-1015", "prompt": "out/rca-INC-DEMO-1015-20261029-143734.txt"}
+{"ts": "2026-10-29T14:37:42", "event": "alerts", "returncode": 0, "findings": 0, "prompt": "out/alerts-20261029-143742.txt", "saved": true}
+{"ts": "2026-10-29T14:37:48", "event": "action", "name": "open demo ticket", "tier": "T1", "decision": "approved", "approver": "Demo-Approver", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:37:53", "event": "action", "name": "delete demo logs", "tier": "T3", "decision": "refused"}
+{"ts": "2026-10-29T14:39:01", "event": "action", "name": "delete demo logs", "tier": "T3", "decision": "refused"}
+{"ts": "2026-10-29T14:40:56", "event": "check", "file": "samples/router-output.txt", "findings": 2}
+{"ts": "2026-10-29T14:41:05", "event": "troubleshoot", "symptom": "bgp", "evidence": "samples/router-output.txt", "prompt": "out/troubleshoot-bgp-20261029-144105.txt"}
+{"ts": "2026-10-29T14:41:10", "event": "action", "name": "change demo ACL", "tier": "T2", "decision": "approved", "approver": "Demo-Approver", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:42:42", "event": "check", "file": "samples/router-output.txt", "findings": 2}
+{"ts": "2026-10-29T14:42:43", "event": "rca", "incident": "INC-OUTAGE1015", "prompt": "out/rca-INC-OUTAGE1015-20261029-144243.txt"}
+{"ts": "2026-10-29T14:42:56", "event": "action", "name": "open ticket for INC-OUTAGE-1015", "tier": "T1", "decision": "approved", "approver": "AkashBhat", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:42:57", "event": "action", "name": "delete_logs SRV-FILE01", "tier": "T3", "decision": "refused"}
+{"ts": "2026-10-29T14:44:46", "event": "check", "file": "samples/router-output.txt", "findings": 2}
+{"ts": "2026-10-29T14:44:46", "event": "rca", "incident": "INC-OUTAGE1015", "prompt": "out/rca-INC-OUTAGE1015-20261029-144446.txt"}
+{"ts": "2026-10-29T14:44:57", "event": "action", "name": "open ticket for INC-OUTAGE-1015", "tier": "T1", "decision": "approved", "approver": "AKASHBHAT", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:45:10", "event": "action", "name": "delete_logs SRV-FILE01", "tier": "T2", "decision": "approved", "approver": "AkashBhat", "operator": "akashbhat"}
+{"ts": "2026-10-29T14:47:29", "event": "alerts", "returncode": 0, "findings": 0, "prompt": "out/alerts-20261029-144729.txt", "saved": true}
+{"ts": "2026-10-29T14:59:44", "event": "alerts", "returncode": 0, "findings": 0, "prompt": "out/alerts-20261029-145944.txt", "saved": true}

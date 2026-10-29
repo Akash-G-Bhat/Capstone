@@ -1,0 +1,3 @@
+Action: delete demo logs
+Tier:   T3 (never allowed)
+Refused: T3 actions are never allowed.

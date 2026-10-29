@@ -1,0 +1,12 @@
+Oct 13 09:05:14.882 IST: %BGP-3-NOTIFICATION: sent to neighbor 203.0.113.9 4/0 (hold time expired) 0 bytes
+Oct 13 09:05:46.120 IST: %BGP-5-ADJCHANGE: neighbor 203.0.113.9 Up
+Oct 13 09:08:49.637 IST: %BGP-3-NOTIFICATION: sent to neighbor 203.0.113.9 4/0 (hold time expired) 0 bytes
+EDGE-RTR01#ping 203.0.113.9 size 1500 df-bit repeat 5
+Success rate is 0 percent (0/5)
+EDGE-RTR01#ping 203.0.113.9 size 1400 df-bit repeat 5
+Success rate is 100 percent (5/5), round-trip min/avg/max = 2/3/5 ms
+EDGE-RTR01#show running-config | section router bgp
+router bgp 65010
+ neighbor 203.0.113.9 remote-as 64500
+ neighbor 203.0.113.9 password 7 1F2B3C4D5E6A7B8C9D
+Change note: ISP migration 12-Oct 23:00, contact noc@isp-a.example

@@ -1,0 +1,12 @@
+15-Oct 00:04:41  router      %SYS-5-CONFIG_I: Configured from console by nrao on vty0 (10.20.9.21)
+15-Oct 00:05:00  bridge      Net-OnCall (nrao): block in place
+15-Oct 00:07:43  router      %BGP-3-NOTIFICATION: sent to neighbor 203.0.113.9 4/0 (hold time expired) 0 bytes
+15-Oct 00:07:43  router      %BGP-5-ADJCHANGE: neighbor 203.0.113.9 Down BGP Notification sent
+15-Oct 00:07:43  router      %BGP_SESSION-5-ADJCHANGE: neighbor 203.0.113.9 IPv4 Unicast topology base removed from session  BGP Notification sent
+15-Oct 00:28:00  bridge      IR-Lead (meera.j): no blame on the bridge please. Kiran, how do we get in?
+15-Oct 00:28:00  bridge      SOC (arjun.t): who approved that config??
+15-Oct 00:29:00  bridge      Senior-Net (kiran.d): OOB console via 4G console server. need break-glass creds from vault
+15-Oct 00:33:00  bridge      Senior-Net (kiran.d): vault approval received, on console
+15-Oct 00:38:12  router      %SYS-5-CONFIG_I: Configured from console by kiran.d on console
+15-Oct 00:39:52  router      %BGP-5-ADJCHANGE: neighbor 203.0.113.9 Up
+15-Oct 00:39:58  monitoring  PUN BGP ISP-A UP neighbor Established

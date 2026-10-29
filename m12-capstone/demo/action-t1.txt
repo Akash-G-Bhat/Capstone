@@ -1,0 +1,3 @@
+Action: open demo ticket
+Tier:   T1 (low-risk write, needs approval)
+Approved by Demo-Approver: the assistant may perform this low-risk action.
